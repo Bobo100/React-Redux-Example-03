@@ -1,0 +1,50 @@
+// @import "tailwindcss/base";
+// @import "tailwindcss/components";
+// @import "tailwindcss/utilities";
+
+$navbar-height: 80px;
+$bacground-color: #0f1114;
+$color: #61dafb;
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: $navbar-height;
+    background-color: $bacground-color;
+    color: $color;
+    z-index: 100;
+    transition: top 0.3s;
+
+    padding-left: 20px;
+
+    display: flex;
+    align-items: center;
+}
+
+.navbar--hidden {
+    top: -$navbar-height;
+}
+
+html,
+body {
+    background-color: $bacground-color;
+    color: white;
+}
+
+input,
+button {
+    border: 1px solid $color;
+    background-color: $bacground-color;
+    color: $color;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+
+    &:hover {
+        background-color: $color;
+        color: $bacground-color;
+    }
+}
