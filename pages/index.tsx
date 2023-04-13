@@ -86,7 +86,7 @@ function HomePage() {
                     <button className="p-2 m-2" onClick={() => handleAddToDo()}>新增</button>
                 </div>
 
-                <a href="https://react-redux-neon.vercel.app/useReduxOfficial" rel="noopener" target="_blank" className="border p-2 rounded border-title hover:bg-title hover:text-black mt-5">回去學習~</a>
+                <a href="https://react-redux-neon.vercel.app/reduxNew" rel="noopener" target="_blank" className="border p-2 rounded border-title hover:bg-title hover:text-black mt-5">回去學習~</a>
             </div>
         </Layout>
     )
